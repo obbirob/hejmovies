@@ -2,10 +2,6 @@ import { Grid } from "@mui/material";
 import MovieList from '../Data/movielist.json';
 import MovieCard from "../Module/Moviecard";
 
-import Masonry from '@mui/lab/Masonry';
-import Typography from '@mui/material/Typography';
-import { useState } from "react";
-
 // Function to generate a random pastel color
 const generateRandomColor = () => {
   const pastel = Array.from({ length: 3 }, () => Math.random());
